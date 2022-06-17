@@ -11,5 +11,7 @@ $(".search-button").click(function () {
       $("body").append(
         `<img src=${data.data[randomNumber].images.original.url}>`
       );
+      $(".email-button").click(function () {});
+      window.location.href = `mailto:info@example.com?subject=hai%20byee!`;
     });
 });
